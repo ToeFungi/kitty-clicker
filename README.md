@@ -7,5 +7,8 @@ To play simply click the kitty. When you have a certain number of kitty points, 
 ### How to run locally
 Simply clone the game and drag and drop the `index.html` into your web browser of choice
 
+### Play it online now
+Here is a link to a hosted version of [kitty clicker](https://udacity.thetoefungi.co.za/kitty-clicker/)
+
 ### Disclaimer
 The game isn't quite finished yet and some features *WILL* be buggy!
