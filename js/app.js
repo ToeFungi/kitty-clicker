@@ -1,4 +1,4 @@
-let counter, milkAdd, stringAdd, catnipAdd;
+let counter, milkAdd, stringAdd, catnipAdd, isPulsing;
 
 $(".cat img").click(addToCounter);
 
@@ -9,13 +9,16 @@ function init() {
 	milkAdd = 0;
 	stringAdd = 0;
 	catnipAdd = 0;
-
-	pulse();
+	isPulsing = false;
 }
 
 function addToCounter(value) {
 	value && Number.isInteger(value) ? counter += value : counter++;
 	$(".counter").html(counter);
+	if (!isPulsing) {
+		isPulsing = true;
+		pulse();
+	}
 }
 
 function removeFromCounter(value) {
