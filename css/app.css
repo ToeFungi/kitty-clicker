@@ -1,0 +1,44 @@
+html {
+	height: 100%;
+	background: url("../res/background.jpg");
+}
+
+.cat {
+	text-align: center;
+}
+
+.cat-container {
+	min-height: 550px;
+}
+
+.ui {
+	color: #f2f2f2;
+	font-size: 50px;
+	text-align: center;
+}
+
+.counter {
+	width: 100px;
+	padding: 0 1em;
+	border-radius: 10px;
+	background: #080821e6;
+	border: 5px solid #f2f2f2;
+}
+
+.power-ups {
+	margin-top: 1em;
+}
+
+.power {
+	display: inline-block;
+}
+
+.power > img {
+	padding: 0 0.5em;
+	max-height: 150px;
+}
+
+.power > div> img {
+	padding: 0 0.5em;
+	max-height: 150px;
+}
